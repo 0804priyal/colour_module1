@@ -1,0 +1,20 @@
+{
+    "name": "hs/module-base-price",
+    "description": "N/A",
+    "require": {
+        "hs/module-all": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.1.12",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HS\\BasePrice\\": ""
+        }
+    }
+}

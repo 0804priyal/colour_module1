@@ -1,0 +1,13 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Pricing\Render">
+        <plugin name="hs_bp_show_mage_framework_pricing_render_aroundrender"
+                type="HS\BasePrice\Plugin\Magento\Framework\Pricing\Render\AroundRender"
+                sortOrder="9999" />
+    </type>
+
+    <type name="Magento\ConfigurableProduct\Block\Product\View\Type\Configurable">
+        <plugin name="hs_bp_configurableproduct_block_product_view_type_configurable"
+                type="HS\BasePrice\Plugin\Magento\ConfigurableProduct\Block\Product\View\Type\Configurable"
+                sortOrder="9999" />
+    </type>
+</config>

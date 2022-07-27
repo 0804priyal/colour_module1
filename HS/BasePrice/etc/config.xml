@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <hs_base_price>
+            <general>
+                <enabled>0</enabled>
+                <show_on_product_view_page>1</show_on_product_view_page>
+                <show_on_product_list_page>1</show_on_product_list_page>
+                <product_page_label>equals {{base_price}} per {{reference_amount}} {{reference_amount_unit}}.</product_page_label>
+                <list_page_label>(={{base_price}} / {{reference_amount}} {{reference_amount_unit}})</list_page_label>
+                <units>KG,LBS,G,MG,L,ML,M,SQM,IN,CM,MM,PCS</units>
+            </general>
+        </hs_base_price>
+    </default>
+</config>
